@@ -1,0 +1,24 @@
+# Python / uv
+.venv/
+venv/
+__pycache__/
+*.pyc
+*.pyo
+.pytest_cache/
+*.egg-info/
+build/
+dist/
+
+# uv
+uv.lock.tmp
+
+# Blender
+*.blend1
+*.blend2
+
+# OS / editors
+.DS_Store
+*.swp
+
+# Scratch output from local test runs (not the tests/fixtures assets, which are tracked)
+/tmp_out/
